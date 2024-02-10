@@ -1,0 +1,120 @@
+@media (max-width: 1120px) {}
+@media (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    
+    }
+}
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    
+    }
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+}
+
+.img_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: relative;
+}
+
+.text_h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.text_p1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.first {
+    width : 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.auu1 {
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#auu1_h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    position: relative;
+
+}
+
+#auu1_p1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer {
+    text-align: left;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
