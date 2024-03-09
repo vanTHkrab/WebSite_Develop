@@ -1,18 +1,11 @@
-let n = 0;
+const callmebackbtn = document.querySelector('#callmeback-btn');
 
-function auujeefunction(){
-    if (n == 0){
-        document.getElementById("auu1_p1").innerHTML = "ไอ้อู๋จี้เอ้ย";
-        n = 1;
-    }
-        else {
-        document.getElementById("auu1_p1").innerHTML = "";
-        n = 0;
-    }
-    console.log("auujeefunction: ", n);
-}
+callmebackbtn.addEventListener("click", function() {
+    console.log('Button clicked');
+    document.getElementById('text').innerHTML = "";
+});
 
-function imgitsuki(){
-    document.getElementById("imgitsuki").src = "img/itsuki.jpg";
-}
-
+document.querySelector('#callmeback-btn2').addEventListener("click", function() {
+    console.log('Button text Clicked');
+    document.getElementById('text').innerHTML = "Hello World";
+});

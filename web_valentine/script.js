@@ -12,7 +12,7 @@ function NotWant() {
     switch (n) {
         case 1:
             document.getElementById("text_js2").innerHTML = "Are you sure?";
-            document.getElementById("image").src = "./img/Honkai.jpg";
+            // document.getElementById("image").src = "./img/Honkai.jpg";
             break;
         case 2:
             document.getElementById("text_js2").innerHTML = "Really?";
@@ -28,8 +28,6 @@ function NotWant() {
             break;
     }
 }
-
-
 
 function Want() {
 
