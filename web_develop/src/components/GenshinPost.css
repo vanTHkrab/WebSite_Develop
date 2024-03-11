@@ -1,0 +1,39 @@
+.genshin-post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genshin-post-bg {
+    background-color: #000000ce;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.genshin-post-content {
+    position: relative;
+    max-width: 1200px;
+    background-color: #000000;
+}
+
+.genshin-post-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.genshin-post-content h4 {
+    color: #f1f1f1f1;
+    text-align: center;
+}
