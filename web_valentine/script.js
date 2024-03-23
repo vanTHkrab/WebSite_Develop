@@ -25,6 +25,7 @@ function NotWant() {
             break;
         case 5:
             document.getElementById("text_js2").innerHTML = "Please... ";
+            n = 4;
             break;
     }
 }

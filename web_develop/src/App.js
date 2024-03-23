@@ -33,7 +33,10 @@ function App() {
 
     return (
         <div className="logo">
-            <AppHeader />
+            {/* <AppHeader />
+            <video width="320px" height="240px" autoplay>
+                <source src="/image/video/ping.mp4" type="video/mp4" />
+            </video> */}
             <section className="app-section">
                 <div className="app-container">
                     <AppSearch value={searchText} onValueChange={setSearchText}/>
