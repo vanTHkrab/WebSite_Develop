@@ -1,7 +1,7 @@
 import './GenshinPost.css';
 
 function GenshinPost(props) {
-    const { character, onBgClick }= props;
+    const { character, onBgClick } = props;
     return (
         <div className="genshin-post">
             <div className="genshin-post-bg" />

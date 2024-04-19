@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.Appheader-content {
+    background-color: rgba(83, 3, 130, 0.852);
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
