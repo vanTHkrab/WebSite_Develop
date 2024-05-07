@@ -7,7 +7,7 @@ function App() {
         <div className="App">
         <section>
         {/* <AppHeader /> */}
-        <div class="head-content">
+        <div className="head-content">
             <h1>
                 123123123
             </h1>
@@ -15,7 +15,7 @@ function App() {
                 123123123132123
             </h3>
         </div>
-        <div class="img-content">
+        <div className="img-content">
             <img src="/image/HBD.jpg"/>
         </div>
         <div>

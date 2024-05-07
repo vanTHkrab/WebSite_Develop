@@ -29,9 +29,15 @@
         padding: 0;
     }
 
-    .App .img-content img{
+    .App .img-content{
         width: 100%;
         height: 50vh;
-        display: block;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .App .img-content img {
+        width: 50%;
     }
 }
